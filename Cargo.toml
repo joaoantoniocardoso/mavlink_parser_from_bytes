@@ -1,0 +1,9 @@
+[package]
+name = "mavlink_parser_from_bytes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+mavlink = { version = "0.13.1", default-features = false, features = ["std", "serde", "ardupilotmega"] }
